@@ -1,2 +1,2 @@
 # R
-R scripts
+Raw R commands scripts
