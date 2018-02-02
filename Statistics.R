@@ -10,4 +10,4 @@ table(vector)
 as.data.frame(table(vector))
 
 mode <- as.numeric(names(table(as.vector(vector)))[table(as.vector(vector))== max(table(as.vector(vector)))])
-mode
+mean(mode)
