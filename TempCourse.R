@@ -19,6 +19,6 @@ a <- murders[["population"]]
 b <- murders[["abb"]]
 identical(a, b)
 
-length(level(murders$region))
+length(levels(murders$region))
 
 table(murders$region)
