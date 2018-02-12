@@ -1,5 +1,0 @@
-tables <- matrix(c(seq(1,10,1),seq(2,20,2),seq(3,30,3),seq(4,40,4),seq(5,50,5)),ncol=10,byrow=TRUE)
-colnames(tables) <- c(as.character(1:10))
-rownames(tables) <- c(as.character(1:5))
-tables <- as.table(tables)
-barplot(tables)
